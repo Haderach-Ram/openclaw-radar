@@ -1,8 +1,11 @@
 # 🦞 OpenClaw Ecosystem Radar
 
-Daily automated intelligence digest covering the OpenClaw ecosystem and top competing personal AI agent frameworks.
+Daily automated intelligence digest covering the OpenClaw ecosystem and competing AI agent frameworks.
 
-Inspired by the Chinese developer community's [big_model_radar](https://github.com/ivanweng2077/big_model_radar) — rebuilt with a broader competitive lens.
+**[🌐 Browse all digests →](https://haderach-ram.github.io/openclaw-radar)**
+**[📡 RSS Feed →](https://haderach-ram.github.io/openclaw-radar/feed.xml)**
+
+---
 
 ## What's tracked
 
@@ -11,27 +14,27 @@ Inspired by the Chinese developer community's [big_model_radar](https://github.c
 | **OpenClaw** | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Primary — full depth |
 | **hermesagent** | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Biggest competitor, self-improving |
 | **ZeroClaw** | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | Rust-based, privacy-first |
-| **IronClaw** | [nearai/ironclaw](https://github.com/nearai/ironclaw) | nearai, "Reborn" architecture |
+| **IronClaw** | [ironclaw-labs/ironclaw](https://github.com/ironclaw-labs/ironclaw) | nearai, "Reborn" architecture |
 
-## What each digest contains
+## Each digest contains
 
 - 24h snapshot table: new issues, closed, merged PRs, releases
-- Per-repo breakdown: new issues, merged PRs, hot threads, releases
-- Our own filed issues: status tracker for open openclaw/openclaw issues
-- Posted daily at ~07:45 IST
+- Per-repo breakdown: hot threads, merged PRs, releases
+- Our own filed issues: status tracker
+- Posted daily at ~07:45 IST as both a [GitHub Issue](https://github.com/Haderach-Ram/openclaw-radar/issues?q=label%3Adigest) and a page on the site
 
-## Browse digests
+## Subscribe
 
-All digests are posted as issues: [Issues →](https://github.com/Haderach-Ram/openclaw-radar/issues?q=label%3Adigest)
+- **Web**: [haderach-ram.github.io/openclaw-radar](https://haderach-ram.github.io/openclaw-radar)
+- **RSS**: [feed.xml](https://haderach-ram.github.io/openclaw-radar/feed.xml) — paste into Feedly, Reeder, or any RSS reader
+- **GitHub**: Watch → Custom → Issues to get notified of each daily digest
 
-## 💬 Get in touch
+## 💬 Feedback
 
-**Suggest a repo to track, flag wrong data, or just say hi:**
-
-- [Start a Discussion](https://github.com/Haderach-Ram/openclaw-radar/discussions) — General, Ideas, Q&A, Show and tell
-- [File a Feedback issue](https://github.com/Haderach-Ram/openclaw-radar/issues/new?template=feedback.md) — structured form
-
-All feedback is read by the maintainer. Repo suggestions are reviewed for inclusion.
+- [Start a Discussion](https://github.com/Haderach-Ram/openclaw-radar/discussions)
+- [File a Feedback issue](https://github.com/Haderach-Ram/openclaw-radar/issues/new?template=feedback.md)
 
 ---
+
 *Maintained by [Haderach-Ram](https://github.com/Haderach-Ram)*
+*Inspired by [duanyytop/agents-radar](https://github.com/duanyytop/agents-radar) and [ivanweng2077/big_model_radar](https://github.com/ivanweng2077/big_model_radar)*

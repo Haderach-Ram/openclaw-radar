@@ -1,0 +1,68 @@
+theme: jekyll-theme-chirpy
+lang: en
+timezone: Asia/Calcutta
+
+title: OpenClaw Radar
+tagline: Daily ecosystem intelligence for OpenClaw and competing AI agent frameworks
+description: >-
+  Automated daily digest tracking OpenClaw, hermesagent, ZeroClaw, IronClaw —
+  issues, PRs, releases, community signals.
+
+url: "https://haderach-ram.github.io"
+baseurl: "/openclaw-radar"
+
+github:
+  username: Haderach-Ram
+
+social:
+  name: Haderach-Ram
+  email: ""
+  links:
+    - https://github.com/Haderach-Ram
+
+theme_mode: dark
+
+avatar: ""
+
+toc: true
+comments:
+  active: false
+
+paginate: 10
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+      pin: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
