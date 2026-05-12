@@ -66,3 +66,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+analytics:
+  goatcounter:
+    id: openclaw-radar
