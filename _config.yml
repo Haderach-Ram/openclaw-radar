@@ -26,7 +26,16 @@ avatar: "/assets/img/avatar.png"
 
 toc: true
 comments:
-  active: false
+  active: giscus
+  giscus:
+    repo: Haderach-Ram/openclaw-radar
+    repo_id: R_kgDOSZZ1JQ
+    category: General
+    category_id: DIC_kwDOSZZ1Jc4C8trM
+    mapping: pathname
+    input_position: bottom
+    lang: en
+    reactions_enabled: 1
 
 paginate: 10
 
@@ -41,7 +50,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: false
+      comments: true
       toc: true
       pin: false
   - scope:
