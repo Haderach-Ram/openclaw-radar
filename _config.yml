@@ -26,7 +26,7 @@ avatar: "/assets/img/avatar.png"
 
 toc: true
 comments:
-  active: giscus
+  provider: giscus
   giscus:
     repo: Haderach-Ram/openclaw-radar
     repo_id: R_kgDOSZZ1JQ
