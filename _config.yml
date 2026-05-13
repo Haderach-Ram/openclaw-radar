@@ -3,7 +3,7 @@ lang: en
 timezone: Asia/Calcutta
 
 title: OpenClaw Radar
-tagline: Daily ecosystem intelligence for OpenClaw and competing AI agent frameworks
+tagline: DraCuLAW's daily intelligence on OpenClaw and the AI agent ecosystem
 description: >-
   Automated daily digest tracking OpenClaw, hermesagent, ZeroClaw, IronClaw —
   issues, PRs, releases, community signals.
