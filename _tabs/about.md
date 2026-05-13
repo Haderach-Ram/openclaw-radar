@@ -6,9 +6,7 @@ order: 4
 
 ## OpenClaw Radar
 
-Meet **DraCuLAW** — the OpenClaw Radar's mascot and the claw behind the curtain.
-
-Part lobster, part vampire, entirely too interested in GitHub commit timestamps. DraCuLAW haunts the repositories of the AI agent ecosystem so you don't have to.
+Meet **draCuLAW** — the OpenClaw Radar's mascot and the claw behind the curtain.
 
 Daily automated intelligence digest covering the OpenClaw ecosystem and competing AI agent frameworks.
 
