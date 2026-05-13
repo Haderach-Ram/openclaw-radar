@@ -11,7 +11,19 @@
       {%- endif -%}
     </a>
 
-    <a class="site-title draculaw-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="draculaw-svg-wrap d-block" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
+      <svg class="draculaw-svg" viewBox="0 0 185 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{{ site.title }}">
+        <defs>
+          <filter id="draculaw-glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+            <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <text y="40" font-family="'Eater', cursive" fill="#cc2200" filter="url(#draculaw-glow)" letter-spacing="1.5">
+          <tspan font-size="22">d</tspan><tspan font-size="22">r</tspan><tspan font-size="22">a</tspan><tspan font-size="36">C</tspan><tspan font-size="22">u</tspan><tspan font-size="36">L</tspan><tspan font-size="36">A</tspan><tspan font-size="36">W</tspan>
+        </text>
+      </svg>
+    </a>
     <p class="site-radar-name mb-0">{{ site.radar_name }}</p>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
