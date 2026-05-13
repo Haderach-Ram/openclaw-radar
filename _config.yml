@@ -2,7 +2,8 @@ theme: jekyll-theme-chirpy
 lang: en
 timezone: Asia/Calcutta
 
-title: "draCuLAW, the OpenClaw Radar"
+title: draCuLAW
+radar_name: the OpenClaw Radar
 tagline: Daily intelligence on OpenClaw and the AI agent ecosystem
 description: >-
   Automated daily digest tracking OpenClaw, hermesagent, ZeroClaw, IronClaw —
