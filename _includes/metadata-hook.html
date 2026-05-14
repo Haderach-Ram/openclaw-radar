@@ -34,19 +34,32 @@
     opacity: 0.85;
   }
 
-  /* Avatar: image is 1024x1244 (non-square). Default object-position: center center
-     clips the bottom ring of the concentric circles. Shift down to show full circle. */
-  #avatar img {
-    object-position: center 85%;
+  /* Avatar: non-square image (1024x1244) — shift viewport down so full circle shows */
+  #sidebar #avatar img {
+    object-position: center 85% !important;
   }
 
-  /* Centre the sidebar header text block */
-  .profile-wrapper {
+  /* Make profile-wrapper a centred flex column so avatar + title + text all centre */
+  #sidebar .profile-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
     align-items: center !important;
-    text-align: center;
+    width: 100% !important;
+    text-align: center !important;
   }
-  .site-radar-name,
-  #sidebar .site-subtitle {
-    text-align: center;
+
+  #sidebar .profile-wrapper #avatar {
+    align-self: center !important;
+  }
+
+  #sidebar .profile-wrapper .draculaw-img-wrap {
+    align-self: center !important;
+    text-align: center !important;
+  }
+
+  #sidebar .profile-wrapper .site-radar-name,
+  #sidebar .profile-wrapper .site-subtitle {
+    text-align: center !important;
+    width: 100% !important;
   }
 </style>
