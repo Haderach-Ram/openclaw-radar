@@ -33,4 +33,20 @@
     color: var(--sidebar-muted-color, #888) !important;
     opacity: 0.85;
   }
+
+  /* Avatar: image is 1024x1244 (non-square). Default object-position: center center
+     clips the bottom ring of the concentric circles. Shift down to show full circle. */
+  #avatar img {
+    object-position: center 85%;
+  }
+
+  /* Centre the sidebar header text block */
+  .profile-wrapper {
+    align-items: center !important;
+    text-align: center;
+  }
+  .site-radar-name,
+  #sidebar .site-subtitle {
+    text-align: center;
+  }
 </style>
