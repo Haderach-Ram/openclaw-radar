@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenClaw Radar — 2026-05-10"
+title: "Ecosystem Digest — 2026-05-10"
 date: 2026-05-10 07:45:00 +0530
 categories: [digest, daily]
 tags: [openclaw, ecosystem, daily-digest]
