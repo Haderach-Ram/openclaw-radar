@@ -7,20 +7,20 @@ tags: [openclaw, ecosystem, daily-digest]
 ---
 
 # 🦞 OpenClaw Ecosystem Digest — 2026-06-17
-*Generated 07:46 IST by [Haderach-Ram/openclaw-radar](https://github.com/Haderach-Ram/openclaw-radar)*
+*Generated 07:49 IST by [Haderach-Ram/openclaw-radar](https://github.com/Haderach-Ram/openclaw-radar)*
 
 ## 📊 24h Snapshot
 
 | Framework | ⭐ Stars | New Issues | Closed | Merged PRs | New Releases |
 |-----------|---------|-----------|--------|-----------|-------------|
-| **OpenClaw** | 379,060 | 5 | 4 | 10 | 2 |
-| **hermesagent** | 195,411 | 7 | 4 | 6 | 0 |
+| **OpenClaw** | 379,061 | 4 | 4 | 10 | 2 |
+| **hermesagent** | 195,418 | 7 | 4 | 6 | 0 |
 | **ZeroClaw** | 31,927 | 15 | 5 | 10 | 0 |
 | **IronClaw** | 12,456 | 15 | 9 | 10 | 0 |
 
 ---
 ## OpenClaw (`openclaw/openclaw`)
-**Stars:** 379,060 · **Open issues:** 6,214 · **Last push:** <1h ago
+**Stars:** 379,061 · **Open issues:** 6,218 · **Last push:** <1h ago
 
 ### 🚀 New Releases
 - [v2026.6.8](https://github.com/openclaw/openclaw/releases/tag/v2026.6.8) — openclaw 2026.6.8
@@ -39,11 +39,10 @@ tags: [openclaw, ecosystem, daily-digest]
 - [#93726](https://github.com/openclaw/openclaw/pull/93726) fix(typing): start typing on reasoning deltas in thinking mode before visible text
 
 ### 🐛 New Issues
-- [#93858](https://github.com/openclaw/openclaw/issues/93858) fix(auto-reply): defer foreground fence to delivery to prevent interleaving (lazy fence) 💬1
-- [#93854](https://github.com/openclaw/openclaw/issues/93854) [Bug] Docker sandbox fails to start with 'Duplicate mount point' when custom binds target reserved paths
+- [#93858](https://github.com/openclaw/openclaw/issues/93858) fix(auto-reply): defer foreground fence to delivery to prevent interleaving (lazy fence) 💬3
+- [#93854](https://github.com/openclaw/openclaw/issues/93854) [Bug] Docker sandbox fails to start with 'Duplicate mount point' when custom binds target reserved paths 💬1
 - [#93851](https://github.com/openclaw/openclaw/issues/93851) exec secrets provider: resolver script does not pass BWS_SERVER_URL to child process
 - [#93835](https://github.com/openclaw/openclaw/issues/93835) [Bug]: Telegram /think menu shows only off for live-discovered Ollama thinking models, but /think <level> accepts them `bug`
-- [#93831](https://github.com/openclaw/openclaw/issues/93831) foreground reply fence in 2026.6.8 still cancels older in-flight reply after newer visible delivery 💬2
 
 ### 🔒 Closed Issues
 - [#91016](https://github.com/openclaw/openclaw/issues/91016) ⚠️ 升级 2026.6.1 后 DeepSeek Prompt Cache 完全失效，一小时烧掉约 $6
@@ -56,7 +55,7 @@ tags: [openclaw, ecosystem, daily-digest]
 
 ---
 ## hermesagent (`NousResearch/hermes-agent`)
-**Stars:** 195,411 · **Open issues:** 21,238 · **Last push:** <1h ago
+**Stars:** 195,418 · **Open issues:** 21,239 · **Last push:** <1h ago
 
 ### ✅ Merged PRs
 - [#47131](https://github.com/NousResearch/hermes-agent/pull/47131) fix(cli): detect containerd/CRI cgroup-v2 containers in is_container()
@@ -67,13 +66,13 @@ tags: [openclaw, ecosystem, daily-digest]
 - [#47276](https://github.com/NousResearch/hermes-agent/pull/47276) fix(desktop): re-download Electron binary via mirror when pack fails (#47266)
 
 ### 🐛 New Issues
+- [#47557](https://github.com/NousResearch/hermes-agent/issues/47557) [Bug] Windows: scripts/install.ps1 venv recreation fails when pythonw.exe holds .pyd locks — only kills hermes.exe
 - [#47549](https://github.com/NousResearch/hermes-agent/issues/47549) [Bug]: Desktop "New profile" dialog shows raw IPC error for reserved names (e.g. 'test', 'sudo') `type/bug` `comp/tui` `P3`
 - [#47548](https://github.com/NousResearch/hermes-agent/issues/47548) [Feature Request] Hermes Studio Desktop: 为 provider 设置添加多 API Key / 凭证池管理界面 `type/feature` `comp/tui` `P3`
 - [#47541](https://github.com/NousResearch/hermes-agent/issues/47541) Would you accept empty-by-default observer seams for an out-of-tree multi-client plugin? `type/feature` `comp/gateway` `P3`
 - [#47539](https://github.com/NousResearch/hermes-agent/issues/47539) Telegram typing indicator stuck infinitely (orphaned _keep_typing task) `type/bug` `duplicate` `comp/gateway` `platform/telegram` `P2` 💬1
 - [#47534](https://github.com/NousResearch/hermes-agent/issues/47534) [Feature]: Cost & usage visibility / provider/routing UX `type/feature` `comp/agent` `P3`
 - [#47527](https://github.com/NousResearch/hermes-agent/issues/47527) fix(openviking): v0.4.1 compatibility - auth headers and search limit `type/bug` `comp/plugins` `tool/memory` `P3`
-- [#47524](https://github.com/NousResearch/hermes-agent/issues/47524) [Bug]: Composer model pill stuck in loading spinner after rapid profile switching `type/bug` `comp/tui` `P3`
 
 ### 🔒 Closed Issues
 - [#47111](https://github.com/NousResearch/hermes-agent/issues/47111) is_container() misses containerd + cgroup v2 (k8s/k3s) → s6 gateway supervision silently disabled → gateway double-start crash loop
@@ -182,54 +181,20 @@ tags: [openclaw, ecosystem, daily-digest]
 ---
 ## 🏛️ Official Content — Anthropic + OpenAI
 
-### Anthropic — 1 new
-- [[Research] Claude Code Expertise](https://www.anthropic.com/research/claude-code-expertise) _2026-06-17_
+_No new official content detected in the last 24h._
 
 ---
 ## 🤖 Reddit Pulse — r/LocalLLaMA · r/singularity
 
-### r/LocalLLaMA — top 2 new
-- [GLM-5.2 is the first open-weights model to cross 80% on Terminal-Bench and beats every other open model available](https://reddit.com/r/LocalLLaMA/comments/1u7mexd/glm52_is_the_first_openweights_model_to_cross_80/) ↑588
-- [Mistral - New family of open-weight models @ July](https://reddit.com/r/LocalLLaMA/comments/1u7klvv/mistral_new_family_of_openweight_models_july/) ↑400
+### r/LocalLLaMA — top 5 new
+- [Donate your coding sessions to an open CC-BY-4.0 dataset to help train open-weight and open source models](https://reddit.com/r/LocalLLaMA/comments/1u795pb/donate_your_coding_sessions_to_an_open_ccby40/) ↑1132
+- [We should set up a torrent network for open source models.](https://reddit.com/r/LocalLLaMA/comments/1u4gto1/we_should_set_up_a_torrent_network_for_open/) ↑975
+- [zai-org/GLM-5.2 is here!](https://reddit.com/r/LocalLLaMA/comments/1u7kcwf/zaiorgglm52_is_here/) ↑682
+- [Hashicorp founder thinks local models "aren't good ENOUGH yet"](https://reddit.com/r/LocalLLaMA/comments/1u7nph8/hashicorp_founder_thinks_local_models_arent_good/) ↑385
+- [Be wary of Qwen/Claude distillations - they're often worse than the base model](https://reddit.com/r/LocalLLaMA/comments/1u7a2hn/be_wary_of_qwenclaude_distillations_theyre_often/) ↑325
 
-### r/singularity — top 5 new
-- [America starts regulations](https://reddit.com/r/singularity/comments/1u4mmqd/america_starts_regulations/) ↑2218
-- [Dario Amodei got what he asked for](https://reddit.com/r/singularity/comments/1u4qic1/dario_amodei_got_what_he_asked_for/) ↑2063
-- [SpaceX to buy AI coding startup Cursor for $60 billion](https://reddit.com/r/singularity/comments/1u7c3lr/spacex_to_buy_ai_coding_startup_cursor_for_60/) ↑1457
-- [I asked opus 4.8 what it will build if it has all the resources in the world...](https://reddit.com/r/singularity/comments/1u7a9kt/i_asked_opus_48_what_it_will_build_if_it_has_all/) ↑938
-- [World-first: First human receives therapy to make cells young again (reverse-aging)](https://reddit.com/r/singularity/comments/1u7ac4e/worldfirst_first_human_receives_therapy_to_make/) ↑426
+### r/singularity — top 1 new
+- ["Anthropic Amendments" Proposed Regarding Export Control Directives](https://reddit.com/r/singularity/comments/1u7s7xu/anthropic_amendments_proposed_regarding_export/) ↑70
 
----
-## 🌐 Community Pulse — OpenClaw Ecosystem
-
-### r/openclaw — top new posts
-- [It is genuinely frustrating. How does every single version update always break something?](https://reddit.com/r/openclaw/comments/1u3vufd/it_is_genuinely_frustrating_how_does_every_single/) ↑25
-- [I had my AI assistant turn 6 months of Apple Watch sleep data into the diary my sleep clinic asked for. The data gotchas were brutal.](https://reddit.com/r/openclaw/comments/1u2quhm/i_had_my_ai_assistant_turn_6_months_of_apple/) ↑24
-- [Run OpenClaw with a Local LLM - tested for macOS 16GB-24GB](https://reddit.com/r/openclaw/comments/1u7jxoz/run_openclaw_with_a_local_llm_tested_for_macos/) ↑21
-- [What’s a cool non-coding project/task that you used OC to finally accomplish?](https://reddit.com/r/openclaw/comments/1u7s75l/whats_a_cool_noncoding_projecttask_that_you_used/) ↑8
-- [openclaw handled a fintrack auth error way better than i expected — actually pieced together my account info from transaction history](https://reddit.com/r/openclaw/comments/1u7mewe/openclaw_handled_a_fintrack_auth_error_way_better/) ↑3
-
-### GitHub Discussions
-_No new discussions in the last 24h._
-
-### X — @openclaw
-- [Ready to upgrade?
-
-openclaw update --channel stable --yes
-openclaw --version
-
-Update guide: 
-https://
-docs.openclaw.ai/i](https://x.com/openclaw) ↑0 🔁0 · recent
-- [One important default change 
-
-Key-free web search providers now stay explicit opt-ins instead of being automatically se](https://x.com/openclaw) ↑0 🔁0 · recent
-- [Memory and state recovery got tougher 
-
-Oversized embedding batches split before 431s, QMD search stays alive in transie](https://x.com/openclaw) ↑0 🔁0 · recent
-
-
-### X — @steipete
-- [It’s a client/server architecture and it hasn’t been updated in a year, which is exactly when we got capable models that](https://x.com/steipete) ↑0 🔁0 · recent
 ---
 *Next digest: tomorrow 07:45 IST · [Radar repo](https://github.com/Haderach-Ram/openclaw-radar)*
