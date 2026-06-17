@@ -7,14 +7,14 @@ tags: [openclaw, ecosystem, daily-digest]
 ---
 
 # 🦞 OpenClaw Ecosystem Digest — 2026-06-17
-*Generated 07:49 IST by [Haderach-Ram/openclaw-radar](https://github.com/Haderach-Ram/openclaw-radar)*
+*Generated 07:51 IST by [Haderach-Ram/openclaw-radar](https://github.com/Haderach-Ram/openclaw-radar)*
 
 ## 📊 24h Snapshot
 
 | Framework | ⭐ Stars | New Issues | Closed | Merged PRs | New Releases |
 |-----------|---------|-----------|--------|-----------|-------------|
 | **OpenClaw** | 379,061 | 4 | 4 | 10 | 2 |
-| **hermesagent** | 195,418 | 7 | 4 | 6 | 0 |
+| **hermesagent** | 195,419 | 7 | 4 | 6 | 0 |
 | **ZeroClaw** | 31,927 | 15 | 5 | 10 | 0 |
 | **IronClaw** | 12,456 | 15 | 9 | 10 | 0 |
 
@@ -55,7 +55,7 @@ tags: [openclaw, ecosystem, daily-digest]
 
 ---
 ## hermesagent (`NousResearch/hermes-agent`)
-**Stars:** 195,418 · **Open issues:** 21,239 · **Last push:** <1h ago
+**Stars:** 195,419 · **Open issues:** 21,239 · **Last push:** <1h ago
 
 ### ✅ Merged PRs
 - [#47131](https://github.com/NousResearch/hermes-agent/pull/47131) fix(cli): detect containerd/CRI cgroup-v2 containers in is_container()
@@ -186,15 +186,27 @@ _No new official content detected in the last 24h._
 ---
 ## 🤖 Reddit Pulse — r/LocalLLaMA · r/singularity
 
-### r/LocalLLaMA — top 5 new
-- [Donate your coding sessions to an open CC-BY-4.0 dataset to help train open-weight and open source models](https://reddit.com/r/LocalLLaMA/comments/1u795pb/donate_your_coding_sessions_to_an_open_ccby40/) ↑1132
-- [We should set up a torrent network for open source models.](https://reddit.com/r/LocalLLaMA/comments/1u4gto1/we_should_set_up_a_torrent_network_for_open/) ↑975
-- [zai-org/GLM-5.2 is here!](https://reddit.com/r/LocalLLaMA/comments/1u7kcwf/zaiorgglm52_is_here/) ↑682
-- [Hashicorp founder thinks local models "aren't good ENOUGH yet"](https://reddit.com/r/LocalLLaMA/comments/1u7nph8/hashicorp_founder_thinks_local_models_arent_good/) ↑385
-- [Be wary of Qwen/Claude distillations - they're often worse than the base model](https://reddit.com/r/LocalLLaMA/comments/1u7a2hn/be_wary_of_qwenclaude_distillations_theyre_often/) ↑325
+### r/singularity — top 2 new
+- [The difference 10 days makes](https://reddit.com/r/singularity/comments/1u7r9jq/the_difference_10_days_makes/) ↑23
+- [Nvidia is the Federal Reserve of AI](https://reddit.com/r/singularity/comments/1u7s19g/nvidia_is_the_federal_reserve_of_ai/) ↑0
 
-### r/singularity — top 1 new
-- ["Anthropic Amendments" Proposed Regarding Export Control Directives](https://reddit.com/r/singularity/comments/1u7s7xu/anthropic_amendments_proposed_regarding_export/) ↑70
+---
+## 🌐 Community Pulse — OpenClaw Ecosystem
+
+### r/openclaw — top new posts
+- [AI agents made me realize I was the problem](https://reddit.com/r/openclaw/comments/1u2d1k2/ai_agents_made_me_realize_i_was_the_problem/) ↑18
+- [Anyone else feel like OpenClaw's UI is getting more complex with every release?](https://reddit.com/r/openclaw/comments/1u3qjmk/anyone_else_feel_like_openclaws_ui_is_getting/) ↑13
+- [Showcase Weekend! — Week 23, 2026](https://reddit.com/r/openclaw/comments/1u4hu7w/showcase_weekend_week_23_2026/) ↑13
+- [OpenClaw for Jellyfin](https://reddit.com/r/openclaw/comments/1u42dil/openclaw_for_jellyfin/) ↑13
+
+### GitHub Discussions
+_No new discussions in the last 24h._
+
+### X — @openclaw
+_No new tweets in the last 24h._
+
+### X — @steipete
+_No new tweets in the last 7 days._
 
 ---
 *Next digest: tomorrow 07:45 IST · [Radar repo](https://github.com/Haderach-Ram/openclaw-radar)*
