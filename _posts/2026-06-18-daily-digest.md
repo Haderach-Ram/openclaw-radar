@@ -7,14 +7,14 @@ tags: [openclaw, ecosystem, daily-digest]
 ---
 
 # 🦞 OpenClaw Ecosystem Digest — 2026-06-18
-*Generated 07:46 IST by [Haderach-Ram/openclaw-radar](https://github.com/Haderach-Ram/openclaw-radar)*
+*Generated 07:49 IST by [Haderach-Ram/openclaw-radar](https://github.com/Haderach-Ram/openclaw-radar)*
 
 ## 📊 24h Snapshot
 
 | Framework | ⭐ Stars | New Issues | Closed | Merged PRs | New Releases |
 |-----------|---------|-----------|--------|-----------|-------------|
 | **OpenClaw** | 379,236 | 1 | 8 | 7 | 0 |
-| **hermesagent** | 196,254 | 13 | 3 | 10 | 0 |
+| **hermesagent** | 196,255 | 14 | 3 | 10 | 0 |
 | **ZeroClaw** | 31,938 | 15 | 2 | 10 | 0 |
 | **IronClaw** | 12,456 | 7 | 5 | 10 | 0 |
 
@@ -49,7 +49,7 @@ tags: [openclaw, ecosystem, daily-digest]
 
 ---
 ## hermesagent (`NousResearch/hermes-agent`)
-**Stars:** 196,254 · **Open issues:** 21,675 · **Last push:** <1h ago
+**Stars:** 196,255 · **Open issues:** 21,676 · **Last push:** <1h ago
 
 ### ✅ Merged PRs
 - [#48147](https://github.com/NousResearch/hermes-agent/pull/48147) feat(relay): connector⇄gateway channel auth + signed-HTTP inbound receiver + enroll CLI
@@ -64,6 +64,7 @@ tags: [openclaw, ecosystem, daily-digest]
 - [#47490](https://github.com/NousResearch/hermes-agent/pull/47490) Harden hosted Docker install tree against self-modification
 
 ### 🐛 New Issues
+- [#48175](https://github.com/NousResearch/hermes-agent/issues/48175) [SANITIZED — possible injection attempt]
 - [#48173](https://github.com/NousResearch/hermes-agent/issues/48173) [SANITIZED — possible injection attempt] `type/bug` `comp/agent` `P2`
 - [#48172](https://github.com/NousResearch/hermes-agent/issues/48172) browser: macOS app-bundle Chrome is ignored by local tool availability check `type/bug` `tool/browser` `P2`
 - [#48171](https://github.com/NousResearch/hermes-agent/issues/48171) browser: macOS /browser connect ignores per-user Applications installs `type/bug` `tool/browser` `P3`
@@ -174,27 +175,7 @@ tags: [openclaw, ecosystem, daily-digest]
 ---
 ## 🏛️ Official Content — Anthropic + OpenAI
 
-### Anthropic — 17 new
-- [[News] Seoul Office Partnerships Korean Ai Ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem) _2026-06-17_
-- [[Research] Attack Navigator](https://www.anthropic.com/research/attack-navigator) _2026-06-17_
-- [[Research] Biorisk](https://www.anthropic.com/research/biorisk) _2026-06-17_
-- [[Research] Claude 4 Cyber](https://www.anthropic.com/research/claude-4-cyber) _2026-06-17_
-- [[Research] Critical Infrastructure Defense](https://www.anthropic.com/research/critical-infrastructure-defense) _2026-06-17_
-- [[Research] Cyber Competitions](https://www.anthropic.com/research/cyber-competitions) _2026-06-17_
-- [[Research] Cyber Toolkits](https://www.anthropic.com/research/cyber-toolkits) _2026-06-17_
-- [[Research] Cyber Toolkits Update](https://www.anthropic.com/research/cyber-toolkits-update) _2026-06-17_
-- [[Research] Exploit](https://www.anthropic.com/research/exploit) _2026-06-17_
-- [[Research] Exploit Evals](https://www.anthropic.com/research/exploit-evals) _2026-06-17_
-- [[Research] Mythos Preview](https://www.anthropic.com/research/mythos-preview) _2026-06-17_
-- [[Research] N Days](https://www.anthropic.com/research/n-days) _2026-06-17_
-- [[Research] Nuclear Safeguards For Ai](https://www.anthropic.com/research/nuclear-safeguards-for-ai) _2026-06-17_
-- [[Research] Property Based Testing](https://www.anthropic.com/research/property-based-testing) _2026-06-17_
-- [[Research] Smart Contracts](https://www.anthropic.com/research/smart-contracts) _2026-06-17_
-- [[Team] Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team) _2026-06-17_
-- [[Research] Zero Days](https://www.anthropic.com/research/zero-days) _2026-06-17_
-
-### OpenAI — 1 new
-- [[Index] Introducing Life Sci Bench](https://openai.com/index/introducing-life-sci-bench/) _2026-06-18_
+_No new official content detected in the last 24h._
 
 ---
 ## 🤖 Reddit Pulse — r/LocalLLaMA · r/singularity
