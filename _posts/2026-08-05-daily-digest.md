@@ -7,13 +7,13 @@ tags: [openclaw, ecosystem, daily-digest]
 ---
 
 # 🦞 OpenClaw Ecosystem Digest — 2026-08-05
-*Generated 07:47 IST by [Haderach-Ram/openclaw-radar](https://github.com/Haderach-Ram/openclaw-radar)*
+*Generated 07:48 IST by [Haderach-Ram/openclaw-radar](https://github.com/Haderach-Ram/openclaw-radar)*
 
 ## 📊 24h Snapshot
 
 | Framework | ⭐ Stars | New Issues | Closed | Merged PRs | New Releases |
 |-----------|---------|-----------|--------|-----------|-------------|
-| **OpenClaw** | 385,150 | 10 | 6 | 10 | 0 |
+| **OpenClaw** | 385,151 | 9 | 6 | 10 | 0 |
 | **hermesagent** | 225,542 | 15 | 2 | 3 | 0 |
 | **ZeroClaw** | 32,505 | 11 | 2 | 5 | 0 |
 | **IronClaw** | 12,588 | 12 | 2 | 10 | 0 |
@@ -21,7 +21,7 @@ tags: [openclaw, ecosystem, daily-digest]
 
 ---
 ## OpenClaw (`openclaw/openclaw`)
-**Stars:** 385,150 · **Open issues:** 5,526 · **Last push:** <1h ago
+**Stars:** 385,151 · **Open issues:** 5,527 · **Last push:** <1h ago
 
 ### ✅ Merged PRs
 - [#117550](https://github.com/openclaw/openclaw/pull/117550) fix(model-picker): preserve compatible auth profiles
@@ -36,8 +36,8 @@ tags: [openclaw, ecosystem, daily-digest]
 - [#119380](https://github.com/openclaw/openclaw/pull/119380) fix(ci): preserve release evidence across reruns
 
 ### 🐛 New Issues
-- [#119411](https://github.com/openclaw/openclaw/issues/119411) [Bug]: memory file watcher never reindexes, and `memory status` reports `Dirty: no` while indexed count is below on-disk count
-- [#119407](https://github.com/openclaw/openclaw/issues/119407) [Bug]: same-run terminal lifecycle event is dropped as stale, leaving successful sessions running `bug` `maintainer` `P1` `clawsweeper:source-repro` `impact:session-state` `issue-rating: 🦞 diamond lobster` `maturity:stable` 💬2
+- [#119411](https://github.com/openclaw/openclaw/issues/119411) [Bug]: memory file watcher never reindexes, and `memory status` reports `Dirty: no` while indexed count is below on-disk count 💬1
+- [#119407](https://github.com/openclaw/openclaw/issues/119407) [Bug]: same-run terminal lifecycle event is dropped as stale, leaving successful sessions running `bug` `maintainer` `P1` `clawsweeper:source-repro` `impact:session-state` `issue-rating: 🦞 diamond lobster` `maturity:stable` 💬1
 - [#119404](https://github.com/openclaw/openclaw/issues/119404) Compaction: reserveTokensFloor (input budget) is reused as the summarization output cap, inflating per-chunk maxTokens ~16x over the 16k summary cap `no-stale` `P2` `clawsweeper:fix-shape-clear` `clawsweeper:queueable-fix` `clawsweeper:source-repro` `issue-rating: 🦞 diamond lobster` `impact:other` 💬1
 - [#119401](https://github.com/openclaw/openclaw/issues/119401) [Bug]: Direct/DM NO_REPLY suppression is unconditional and ignores silentReply policy — no way to force visible replies on small/local models `P1` `clawsweeper:no-new-fix-pr` `clawsweeper:needs-maintainer-review` `clawsweeper:needs-product-decision` `clawsweeper:source-repro` `impact:message-loss` `issue-rating: 🦞 diamond lobster` 💬1
 - [#119393](https://github.com/openclaw/openclaw/issues/119393) Bundled skills reference files that no longer exist: openclaw-refactor-docs points at a skill removed in 0dabb70 `P2` `clawsweeper:no-new-fix-pr` `clawsweeper:needs-maintainer-review` `clawsweeper:source-repro` `issue-rating: 🦞 diamond lobster` `impact:other` 💬1
@@ -45,7 +45,6 @@ tags: [openclaw, ecosystem, daily-digest]
 - [#119386](https://github.com/openclaw/openclaw/issues/119386) [Bug]: Active Memory QA trace counts unrelated heartbeat requests `bug` `maintainer` `P2` `clawsweeper:source-repro` `issue-rating: 🦞 diamond lobster` `impact:other` 💬2
 - [#119385](https://github.com/openclaw/openclaw/issues/119385) [Bug]: Active Memory QA doctor migration times out under catalog concurrency `bug` `no-stale` `P2` `clawsweeper:fix-shape-clear` `clawsweeper:queueable-fix` `clawsweeper:source-repro` `issue-rating: 🦞 diamond lobster` `impact:other` 💬1
 - [#119383](https://github.com/openclaw/openclaw/issues/119383) [Bug]: final NO_REPLY is rewritten into the sessions_send body and delivered to the user's channel `P1` `clawsweeper:no-new-fix-pr` `clawsweeper:needs-maintainer-review` `clawsweeper:needs-security-review` `clawsweeper:source-repro` `impact:security` `impact:message-loss` `issue-rating: 🦞 diamond lobster` 💬1
-- [#119382](https://github.com/openclaw/openclaw/issues/119382) [Bug]: WhatsApp durable ingress lane hold starves inbound debounce — same-chat bursts never merge and each message pays the full window `no-stale` `P2` `clawsweeper:fix-shape-clear` `clawsweeper:queueable-fix` `clawsweeper:source-repro` `issue-rating: 🦞 diamond lobster` `impact:ux-friction` 💬3
 
 ### 🔒 Closed Issues
 - [#92244](https://github.com/openclaw/openclaw/issues/92244) [SANITIZED — possible injection attempt]
@@ -171,47 +170,17 @@ tags: [openclaw, ecosystem, daily-digest]
 ---
 ## 🏛️ Official Content — Anthropic + OpenAI
 
-### Anthropic — 1 new
-- [[News] Tino Cuellar](https://www.anthropic.com/news/tino-cuellar) _2026-08-04_
-
-### OpenAI — 4 new
-- [[Partners] Teamlab](https://openai.com/business/partners/teamlab/) _2026-08-05_
-- [Education](https://openai.com/education/) _2026-08-05_
-- [[Index] Introducing The Openai Economic Research Exchange](https://openai.com/index/introducing-the-openai-economic-research-exchange/) _2026-08-04_
-- [[Index] Apple Is Getting This Wrong](https://openai.com/index/apple-is-getting-this-wrong/) _2026-08-04_
+_No new official content detected in the last 24h._
 
 ---
 ## 🤖 Reddit Pulse — r/LocalLLaMA · r/singularity
 
-### r/LocalLLaMA — top 2 new
-- [Kimi K3 full model running on 16x GB10 cluster at 20+tps](https://reddit.com/r/LocalLLaMA/comments/1vfl525/kimi_k3_full_model_running_on_16x_gb10_cluster_at/) ↑748
-- [White House AI Guidelines Exempt U.S. Open Models From Government Review](https://reddit.com/r/LocalLLaMA/comments/1vfqqdb/white_house_ai_guidelines_exempt_us_open_models/) ↑144
+### r/LocalLLaMA — top 5 new
+- [Hugging Face CEO says China is winning the AI race and dominating on open models](https://reddit.com/r/LocalLLaMA/comments/1vfj3q7/hugging_face_ceo_says_china_is_winning_the_ai/) ↑544
+- [SK hynix, In Collaboration With SanDisk, Unveils The New High Bandwidth Flash (HBF) Standard, Helping To Resolve AI Inference Bottlenecks, Targeting Up To 3TB/s Bandwidth](https://reddit.com/r/LocalLLaMA/comments/1vfa3tq/sk_hynix_in_collaboration_with_sandisk_unveils/) ↑484
+- [No more SLM open-source??](https://reddit.com/r/LocalLLaMA/comments/1vfhhpq/no_more_slm_opensource/) ↑313
+- [Has anyone tried Mach-1 Additive? 95% of performance of Qwen 3.6 35B while being 10x smaller](https://reddit.com/r/LocalLLaMA/comments/1vfirld/has_anyone_tried_mach1_additive_95_of_performance/) ↑298
+- [Introducing Shieldstral. | Mistral AI](https://reddit.com/r/LocalLLaMA/comments/1vfj3me/introducing_shieldstral_mistral_ai/) ↑163
 
-### r/singularity — top 2 new
-- [Nope](https://reddit.com/r/singularity/comments/1vf6cpa/nope/) ↑2267
-- [Ilya’s SSI (Safe Super Intelligence) to release their first model this month.](https://reddit.com/r/singularity/comments/1vffbbw/ilyas_ssi_safe_super_intelligence_to_release/) ↑708
-
----
-## 🌐 Community Pulse — OpenClaw Ecosystem
-
-### r/openclaw — top new posts
-- [Groups with my friends and agents?](https://reddit.com/r/openclaw/comments/1vfru5m/groups_with_my_friends_and_agents/) ↑5
-- [What's wrong with using openclaw on my main pc?](https://reddit.com/r/openclaw/comments/1vf0htn/whats_wrong_with_using_openclaw_on_my_main_pc/) ↑5
-- [What are you running OpenClaw for other than coding?](https://reddit.com/r/openclaw/comments/1v8s45f/what_are_you_running_openclaw_for_other_than/) ↑5
-- [Can someone please explain what my openclaw just did...](https://reddit.com/r/openclaw/comments/1vfq9ln/can_someone_please_explain_what_my_openclaw_just/) ↑3
-- [Alternative Metrics for Evaluating LLM Inference Performance Beyond KV Cache Offloading](https://reddit.com/r/openclaw/comments/1vfkafy/alternative_metrics_for_evaluating_llm_inference/) ↑2
-
-### X — @openclaw
-_No new tweets in the last 24h._
-
-### X — @steipete
-- [That's a fairly new kind of spam. 
-https://
-github.com/jinhaosong-sou
-rce?tab=overview&from=2026-07-01&to=2026-07-31
-…](https://x.com/steipete/status/2083976289485230449) ↑0 🔁0 · recent
-- [After accepting for years that GMail is blinding me I finally asked my agent and it installed 
-https://
-darkreader.org f](https://x.com/steipete/status/2083759812970786997) ↑0 🔁0 · recent
 ---
 *Next digest: tomorrow 07:45 IST · [Radar repo](https://github.com/Haderach-Ram/openclaw-radar)*
